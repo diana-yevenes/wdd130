@@ -1,5 +1,26 @@
+nav{
+     background-color: rgb(245, 245, 146);
+     padding: 20px;
+}
+
+nav a{
+    color: blueviolet;
+    padding: 10px;
+    display: block;
+
+}
+
 main{
     max-width: 840px;
+}
+
+h1{
+    color: violet;
+}
+
+img{
+    width: 200px;
+    height: auto;
 }
 
 aside{
