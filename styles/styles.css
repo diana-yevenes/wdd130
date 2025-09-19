@@ -52,7 +52,7 @@ aside h2{
 main image {
     width: 150px;
     height: auto;
-    float: right;
+    float: left;
 }
 
 p{
