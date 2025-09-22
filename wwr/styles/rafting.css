@@ -7,7 +7,7 @@
 :root {
     --primary-color: #85ea8a;
     --secondary-color: #fbb377;
-    --accent1-color: #0b6a90;
+    --accent1-color: #030e12;
     --accent2-color:#0709b6;
 --heading-font: "Times New Roman", "Georgia", serif;
 --body-font: Arial, Helvetica, sans-serif;
@@ -43,7 +43,7 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-.hero {
+.hero{
     position: relative;
 }
 
@@ -64,7 +64,17 @@ h1 {
     color: #fff;
 }
 
+.hero article{
+    position: absolute;
+    bottom: 0;
+    max-width: 80%;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+
 }
+
+
+
