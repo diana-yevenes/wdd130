@@ -75,7 +75,7 @@ h1 {
     width: 125px;
     border: 1px solid rgb(33,33,33, 0.9);
     margin: 1rem;
-    box-shadow:10px 10px rgb(33,33,33,0.);
+    box-shadow:10px 10px rgb(33,33,33,0.9);
     background-color: (--accent1-color);
     color:(--accent2-color);
 
