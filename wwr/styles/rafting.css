@@ -19,6 +19,7 @@ header {
     color: var(--accent2-color);
     display: grid;
     grid-template-columns: auto 1fr 1fr 1fr 1fr;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -35,8 +36,7 @@ header, main, footer {
 nav {
     display:flex;
     justify-content: flex-end;
-    padding: 10px;
-}
+    }
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -90,5 +90,8 @@ h1 {
 
 }
 
+footer { 
+    margin: 10px;
+}
 
 
