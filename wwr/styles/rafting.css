@@ -89,7 +89,7 @@ h1 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
 
-main .history{
+history {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
