@@ -9,8 +9,8 @@
     --secondary-color: #fbb377;
     --accent1-color: #030e12;
     --accent2-color:#0709b6;
---heading-font: "Times New Roman", "Georgia", serif;
---body-font: Arial, Helvetica, sans-serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 
 }
 
@@ -18,8 +18,8 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     display: grid;
-    grid-template-columns: auto 1fr 1fr 1fr 1fr;
-    justify-content: flex-end;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
     align-items: center;
 }
 
