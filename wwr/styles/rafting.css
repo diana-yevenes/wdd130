@@ -119,8 +119,8 @@ h1 {
 
 .map-survey {
     display: flex;
-    gap: 2;
 }
+
 .map{
     display: flex;
     align-items:flex-start;
