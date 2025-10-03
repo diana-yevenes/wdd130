@@ -5,18 +5,18 @@
 }
 
 :root {
-    --primary-color: #85ea8a;
-    --secondary-color: #fbb377;
+    --primary-color: #160470;
+    --secondary-color: #f5cb0f;
     --accent1-color: #030e12;
-    --accent2-color:#0709b6;
+    --accent2-color:#fff;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
