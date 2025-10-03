@@ -96,20 +96,51 @@ h1 {
     align-items: center;
 }
 
+.form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.form1 {
+  grid-template-columns: 1fr 3fr;
+  margin: 0.5rem 0;
+}
+
+.ratio {
+display: flex;
+flex-direction: column;
+}
+
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items:center;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.employees {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:space-around;
     margin: 1rem;
     padding: 1rem;
 }
 
 .footer-container {
-    margin: 10px;
+    margin: 1rem;
     display: flex;
     grid-template-columns: auto 1fr;
     justify-content: space-around;
     align-items: center;
+    background-color:#f5cb0f ;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
 }
 
 .info {
@@ -130,4 +161,9 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: .5rem;
+}
+
+.serve{
+    display: grid;
+    align-items: center;
 }
