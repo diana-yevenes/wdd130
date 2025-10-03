@@ -101,7 +101,7 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items:center;
     margin: 1rem;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .footer-container {
@@ -119,9 +119,8 @@ h1 {
 
 .map-survey {
     display: flex;
-    grid-template-columns: 2;
+    gap: 2;
 }
-
 .map{
     display: flex;
     align-items:flex-start;
