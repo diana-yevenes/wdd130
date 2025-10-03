@@ -112,4 +112,22 @@ footer {
     align-items: flex-end;
 }
 
+.info {
+    text-align: center;
+    padding: .5rem;
+}
 
+.map-survey {
+    display: flex;
+    grid-template-columns: 2;
+}
+
+.map{
+    display: flex;
+    align-items:flex-start;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
