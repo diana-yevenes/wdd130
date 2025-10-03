@@ -33,7 +33,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-nav ul {
+nav {
     display:flex;
     justify-content: space-around;
     align-items: center;
