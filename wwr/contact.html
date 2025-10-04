@@ -22,8 +22,11 @@
     </header>
 
     <main>
-        <div class="info">
+        <section class="company-name">
             <h1>Rafting River Rhythms</h1>
+        </section>
+
+        <div class="info">
             <p>123 Rivadavia Street</p>
             <p>La Calera, Córdoba</p>
             <p>riverrhythms@gmail.com</p>
@@ -48,15 +51,17 @@
                     </div>
                     <div class="ratio">
                         <p>Message Purpose</p>
-                        <input type="radio" id="inquiry" name="purpose" value="inquiry">
-                        <label for="inquiry">General Inquiry</label>
-                        <input type="radio" id="reservation" name="purpose" value="reservation">
-                        <label for="reservation">Reservation Question</label>
-                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                        <label for="suggestion">Website Suggestion</label>
-                    </div><br>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea><br><br>
+                        <div class="options">
+                            <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                            <label for="inquiry">General Inquiry</label>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message"></textarea><br>
 
                     <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
                     <label for="newsletter">Please subscribe to the monthly newsletter</label><br><br>

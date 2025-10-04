@@ -110,7 +110,14 @@ h1 {
 
 .ratio {
 display: flex;
-flex-direction: column;
+align-items: center;
+padding: 1rem;
+}
+
+.options {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
@@ -147,7 +154,18 @@ flex-direction: column;
 
 .info {
     text-align: center;
-    padding: .5rem;
+    padding: 0;
+}
+
+.company-name h1 {
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+  color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+
 }
 
 .map-survey {

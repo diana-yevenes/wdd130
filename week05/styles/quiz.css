@@ -13,6 +13,12 @@ main {
     color: #fff;
 }
 
+.quiz-item {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}
 h1{
     margin: .5rem;
 }
