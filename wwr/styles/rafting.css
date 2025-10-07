@@ -187,3 +187,39 @@ padding: 1rem;
     display: grid;
     align-items: center;
 }
+
+.newsletter {
+    text-align: left;
+    background-color: #f5cb0f;
+    color: #000;
+    font-size: large;
+}
+
+.purpose { 
+     text-align: center;
+  background:#06667b;
+  color: white;
+  font-size: 1.2rem;
+  padding: 50px 20px;
+  border-radius: 16px;
+  margin: 40px 0;
+}
+
+.offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    background-color: #f5cb0f;
+    margin: 2px;
+   
+ 
+}
+
+.price {
+font-size: 20px;
+
+    margin: 10px;
+    padding: 20px;
+  border-radius: 1px;
+
+}
