@@ -4,27 +4,3 @@
     box-sizing: border-box;
 }
 
-main {
-    max-width: 500px;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10% );
-    padding: 1rem;
-    background-color: #555;
-    color: #fff;
-}
-
-.quiz-item {
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-
-}
-h1{
-    margin: .5rem;
-}
-
-form {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10% );
-
-}
