@@ -189,20 +189,26 @@ padding: 1rem;
 }
 
 .newsletter {
-    text-align: left;
+    text-align: center;
     background-color: #f5cb0f;
     color: #000;
     font-size: large;
 }
 
+.mission {
+    text-align: center;
+    color: #fff;
+    font-size:40px;
+
+}
 .purpose { 
      text-align: center;
   background:#06667b;
   color: white;
   font-size: 1.2rem;
-  padding: 50px 20px;
-  border-radius: 16px;
-  margin: 40px 0;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
 }
 
 .offers {
@@ -222,4 +228,10 @@ font-size: 20px;
     padding: 20px;
   border-radius: 1px;
 
+}
+
+.table,
+.table td,
+.table th {
+    border: 1px solid #000;
 }
